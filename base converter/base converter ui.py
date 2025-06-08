@@ -4,7 +4,7 @@ from pygame import *
 pygame.init()
 
 
-w,h = 400,500
+w,h = 400,600
 
 screen = pygame.display.set_mode((w,h))
 
