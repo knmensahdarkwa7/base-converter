@@ -24,7 +24,7 @@ while running:
 
 
     screen.fill('grey')
-    rect1.fill('grey')
+    rect1.fill('orange')
     screen.blit(drop, drop_rect,(0,0,w,h))
     screen.blit(rect1,(10,10))
     pygame.display.update()
