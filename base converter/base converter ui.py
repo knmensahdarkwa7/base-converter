@@ -4,9 +4,9 @@ from pygame import *
 pygame.init()
 
 
-w,h = 500,700
+width,height = 500,700
 
-screen = pygame.display.set_mode((w,h))
+screen = pygame.display.set_mode((width,height))
 
 
 rect1 = pygame.Surface((380,100))
