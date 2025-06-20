@@ -1,7 +1,5 @@
 # main_branch ask whether u want to continue with the program
 # base_ branch ask which type of conversion you would want to use
-#
-
 
 print('Welcome to my base converter')
 
@@ -12,7 +10,7 @@ if main_branch == 'y':
 elif main_branch == 'n':
     active = False
 
-# Canging from paths
+# Changing from paths
 while active:
     base_branch = input(
         'Choose 1 if you are converting from other bases[2,5,8,16] to decimal\nChoose 2 if you are converting from decimal to other bases\n: ')
@@ -74,6 +72,14 @@ while active:
         ####################Still under development#######################################3
         ######################################################################################
         if base == 16 and all(char in '0123456789ABCDEF' for char in init_num):
+            letters= {
+                'A':1010,
+                'B':1011,
+                'C':1100,
+                'D':1101,
+                'E':1110,
+                'F':1111
+            }
             def base16_to_base10():
                 power = len(init_num) - 1
                 formula = 0
